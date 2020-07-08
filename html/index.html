@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Storage</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <table id="files">
+    <table id="files_table">
         <tr>
             Movie Name
         </tr>
         <tr>
-            <button>Play</button>
+            <button id="play_button">Play</button>
         </tr>
 
+
+        <button id="reload_files_button" onclick="generate_movie_list()">Reload Files</button>
     </table>    
+
+    <script src="../js/script.js"></script>
+    
 </body>
 </html>
